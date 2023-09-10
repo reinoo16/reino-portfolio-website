@@ -5,6 +5,8 @@ import DigitalReachImg from '../img/digital_img.jpg';
 import GameShpImg from '../img/gameshp_img.jpg';
 import GstationImg from '../img/gstation_img.jpg';
 import BmwImg2 from '../img/bmw8_img.jpg';
+import ToDo from '../img/todo-list.jpg';
+import Weather from '../img/weather-app.jpg'
 
 function Projects() {
     return (
@@ -22,6 +24,26 @@ function Projects() {
                     </div>
                 </div>
                 <div className='projects-cards'>
+                    <div className='project-card'>
+                        <img src={Weather} alt="" />
+                        <div className="card-texts">
+                            <p>Weather App</p>
+                            <div>
+                                <a href="https://github.com/reinoo16/weather-app" target='_blank'><i class="bi bi-github"></i></a>
+                                <a href="https://weather-app-reinoo16.vercel.app/" target='_blank'><i class="bi bi-globe2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='project-card'>
+                        <img src={ToDo} alt="" />
+                        <div className="card-texts">
+                            <p>To-Do List</p>
+                            <div>
+                                <a href="https://github.com/reinoo16/todo-list" target='_blank'><i class="bi bi-github"></i></a>
+                                <a href="https://todo-list-reinoo16.vercel.app/" target='_blank'><i class="bi bi-globe2"></i></a>
+                            </div>
+                        </div>
+                    </div>
                     <div className='project-card'>
                         <img src={BmwImg} alt="" />
                         <div className="card-texts">
