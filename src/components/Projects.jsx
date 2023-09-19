@@ -6,7 +6,8 @@ import GameShpImg from '../img/gameshp_img.jpg';
 import GstationImg from '../img/gstation_img.jpg';
 import BmwImg2 from '../img/bmw8_img.jpg';
 import ToDo from '../img/todo-list.jpg';
-import Weather from '../img/weather-app.jpg'
+import Weather from '../img/weather-app.jpg';
+import Calculator from '../img/calculator-app.jpg';
 
 function Projects() {
     return (
@@ -24,6 +25,16 @@ function Projects() {
                     </div>
                 </div>
                 <div className='projects-cards'>
+                <div className='project-card'>
+                        <img src={Calculator} alt="" />
+                        <div className="card-texts">
+                            <p>Calculator App</p>
+                            <div>
+                                <a href="https://github.com/reinoo16/calculator-app" target='_blank'><i class="bi bi-github"></i></a>
+                                <a href="https://calculator-app-reinoo16.vercel.app/" target='_blank'><i class="bi bi-globe2"></i></a>
+                            </div>
+                        </div>
+                    </div>
                     <div className='project-card'>
                         <img src={Weather} alt="" />
                         <div className="card-texts">
